@@ -654,7 +654,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #d2187e;
   margin-bottom: 10px;
 }
 
@@ -687,8 +687,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #d2187e;
+  border: 2px solid #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -1189,3 +1189,4 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
