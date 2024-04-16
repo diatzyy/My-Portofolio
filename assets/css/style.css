@@ -776,15 +776,19 @@ section .container {
 --------------------------------------------------------------*/
 .card-container {
   display: flex;
+  flex-wrap: wrap; /* Memastikan agar kartu-kartu bisa melingkar jika tidak cukup ruang */
   gap: 20px; /* Jarak antara kartu */
 }
 
 .card {
-  width: 22rem;
-  background-color: black;
+  flex: 1 0 21rem; /* Menggunakan flexbox untuk mengatur lebar kartu */
+  max-width: 21rem; /* Tetapkan lebar maksimum */
+  background-color: rgba(0, 0, 0, 0.733);
   color: white;
   padding: 20px; /* Jarak di dalam kartu */
+  transition: all ease-in-out 0.3s;
 }
+
 
 .btn {
   display: inline-block;
