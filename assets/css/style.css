@@ -821,7 +821,21 @@ section .container {
   border-color: #f4f5f7;
 }
 
-
+.toggle {
+  position: fixed;
+  bottom: 20px; /* Atur jarak dari bawah sesuai kebutuhan */
+  right: 20px; /* Atur jarak dari kanan sesuai kebutuhan */
+  width: 70px;
+  height: 70px;
+  background: #d2187e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2em;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
